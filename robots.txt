@@ -1,1 +1,1 @@
-Sitemap: https://chongchonghe.github.io/computational-science/sitemap.xml
+Sitemap: https://computational-science.github.io/sitemap.xml
