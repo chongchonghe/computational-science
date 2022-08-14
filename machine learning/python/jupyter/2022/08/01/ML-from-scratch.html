@@ -11,15 +11,17 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Handwritten Digit Recognition with Logistic Regression" />
 <meta property="og:description" content="Handwritten Digit Recognition with Logistic Regression" />
-<link rel="canonical" href="https://chongchonghe.github.io/computational-science/jupyter/ml/machine%20learning/python/2022/08/01/ML-from-scratch.html" />
-<meta property="og:url" content="https://chongchonghe.github.io/computational-science/jupyter/ml/machine%20learning/python/2022/08/01/ML-from-scratch.html" />
+<link rel="canonical" href="https://chongchonghe.github.io/computational-science/machine%20learning/python/jupyter/2022/08/01/ML-from-scratch.html" />
+<meta property="og:url" content="https://chongchonghe.github.io/computational-science/machine%20learning/python/jupyter/2022/08/01/ML-from-scratch.html" />
 <meta property="og:site_name" content="Computational Science Blog" />
+<meta property="og:image" content="https://i.imgur.com/SGP0FsX.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-08-01T00:00:00-05:00" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://i.imgur.com/SGP0FsX.png" />
 <meta property="twitter:title" content="Write a Machine Learning Algorithm from Scratch using Python" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Chong-Chong He (che1234@umd.edu)"},"dateModified":"2022-08-01T00:00:00-05:00","datePublished":"2022-08-01T00:00:00-05:00","description":"Handwritten Digit Recognition with Logistic Regression","headline":"Write a Machine Learning Algorithm from Scratch using Python","mainEntityOfPage":{"@type":"WebPage","@id":"https://chongchonghe.github.io/computational-science/jupyter/ml/machine%20learning/python/2022/08/01/ML-from-scratch.html"},"url":"https://chongchonghe.github.io/computational-science/jupyter/ml/machine%20learning/python/2022/08/01/ML-from-scratch.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Chong-Chong He (che1234@umd.edu)"},"dateModified":"2022-08-01T00:00:00-05:00","datePublished":"2022-08-01T00:00:00-05:00","description":"Handwritten Digit Recognition with Logistic Regression","headline":"Write a Machine Learning Algorithm from Scratch using Python","image":"https://i.imgur.com/SGP0FsX.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://chongchonghe.github.io/computational-science/machine%20learning/python/jupyter/2022/08/01/ML-from-scratch.html"},"url":"https://chongchonghe.github.io/computational-science/machine%20learning/python/jupyter/2022/08/01/ML-from-scratch.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/computational-science/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://chongchonghe.github.io/computational-science/feed.xml" title="Computational Science Blog" /><link rel="shortcut icon" type="image/x-icon" href="/computational-science/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -105,16 +107,13 @@ window.onload = wrap_img;
     
       <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
-        <a class="category-tags-link" href="/computational-science/categories/#jupyter">jupyter</a>
-        &nbsp;
-      
-        <a class="category-tags-link" href="/computational-science/categories/#ML">ML</a>
-        &nbsp;
-      
         <a class="category-tags-link" href="/computational-science/categories/#machine learning">machine learning</a>
         &nbsp;
       
         <a class="category-tags-link" href="/computational-science/categories/#Python">Python</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/computational-science/categories/#jupyter">jupyter</a>
         
       
       </p>
@@ -618,6 +617,14 @@ Predictions for the picked images: [1 1 0 0 0 0 0 0 0 0] , compared to the label
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>The model achieves 99% accuracy on this simple binary classification task.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Training-a-multi-class-classification-model">
 <a class="anchor" href="#Training-a-multi-class-classification-model" aria-hidden="true"><span class="octicon octicon-link"></span></a>Training a multi-class classification model<a class="anchor-link" href="#Training-a-multi-class-classification-model"> </a>
 </h2>
@@ -792,6 +799,14 @@ Predictions for the picked images: [1 1 9 8 9 0 0 3 4 4] , compared to the label
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>The model achieves 91% accuracy on the training dataset and 84% accuracy on the test sample.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Why-does-it-work?">
 <a class="anchor" href="#Why-does-it-work?" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why does it work?<a class="anchor-link" href="#Why-does-it-work?"> </a>
 </h2>
@@ -861,7 +876,7 @@ Predictions for the picked images: [1 1 9 8 9 0 0 3 4 4] , compared to the label
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/computational-science/jupyter/ml/machine%20learning/python/2022/08/01/ML-from-scratch.html" hidden></a>
+</script><a class="u-url" href="/computational-science/machine%20learning/python/jupyter/2022/08/01/ML-from-scratch.html" hidden></a>
 </article>
 
       </div>
@@ -881,7 +896,7 @@ Predictions for the picked images: [1 1 9 8 9 0 0 3 4 4] , compared to the label
         </p>
       </div>
       <div class="footer-col">
-        <p>ChongChong He&#39;s blog on computational science, focusing on applying Python and Julia to computational physics, astrophysics, and machine learning.</p>
+        <p>This is ChongChong He&#39;s blog on computational science which focuses on applying Python and Julia to computational physics, astrophysics, and machine learning.</p>
       </div>
     </div>
 
