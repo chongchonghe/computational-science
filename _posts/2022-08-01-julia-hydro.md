@@ -1,9 +1,10 @@
 ---
-title: "Scientific Computing blog (1): hydrodynamics code using Julia"
+title: "Scientific Computing Blog (1): Hydrodynamics Code using Julia"
 author: "Chong-Chong He"
 layout: post
+comments: true
 toc: false
-image: _posts/images/hydro_00010.png
+image: images/thumbnails/hydro_00010.png
 hide: false
 date: 2021-11-09
 categories: [Julia, Hydro]
