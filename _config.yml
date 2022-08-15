@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Computational Science Blog
-description: This is ChongChong He's blog on computational science which focuses on applying Python and Julia to computational physics, astrophysics, and machine learning. 
+description: This is ChongChong He's blog on computational science with a focus on applying Python and Julia to computational physics/astrophysics and machine learning. 
 github_username: chongchonghe
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "computational-science"
