@@ -10,9 +10,9 @@ date: 2021-11-09
 categories: [Julia, Hydro]
 ---
 
-I am a strong proponent of Julia as a programming language for scientific computing. Julia is a new language that is as fast as C/Fortran and as easy to use as Python. In this demonstration, I wrote a one-dimensional hydrodynamics code using the Lax scheme and Euler method. Below is an animation of the gas with a classical initial condition: a Sod shock tube. The simulation, plotting, and animation are all done by a single Julia script which you can download from [here](/blogs/tube.jl). The script is also copied below. From the scripts, you can appreciate the simplicity and cleanness of the syntax.
+I am a strong proponent of Julia as a programming language for scientific computing. Julia is a new language that is as fast as C/Fortran and as easy to use as Python. In this demonstration, I wrote a one-dimensional hydrodynamics code using the Lax scheme and Euler method. Below is an animation of the gas with a classical initial condition: a Sod shock tube. The simulation, plotting, and animation are all done by a single Julia script which you can download from [here](/_posts/code/tube.jl). The script is also copied below. From the scripts, you can appreciate the simplicity and cleanness of the syntax.
 
-<img src="/blogs/animation.gif" style="width:600px; display:block; margin:auto" />
+<img src="/_posts/images/animation.gif" style="width:600px; display:block; margin:auto" />
 
 The code:
 
