@@ -8,8 +8,11 @@ For the main site, visit https://chongchonghe.github.io/computational-science/ .
 
 # My Blog
 
-
 _powered by [fastpages](https://github.com/fastai/fastpages)_
+
+## How to update this post?
+
+Add pages to _notebooks, _pages, _posts, then do a git push. Github will automatically update the blog. 
 
 
 ## What To Do Next?
